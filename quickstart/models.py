@@ -61,3 +61,11 @@ class Userprofile(AbstractBaseUser, PermissionsMixin):
 user model in settings.py, at the end add the next line:
 AUTH_USER_MODEL = "<appname>.<modelname>" '''
 
+'''Then We need to make our migrations, in the command line we
+have to write, "python3 manage.py makemigrations <appname>" and then
+"python3 manage.py migrate", and our db base is already.'''
+
+'''Now maybe we want to create a superuser as we specificated,
+"python3 manage.py createsuperuser" in commandline.'''
+
+'''Then we may want give a managament models to superuser in admin.py'''

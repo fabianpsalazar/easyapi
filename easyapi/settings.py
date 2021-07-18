@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    'quicksart',
+    'quickstart',
 
 ]
 
@@ -128,4 +128,4 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = 'easyapi.UserProfile'
+AUTH_USER_MODEL = 'quickstart.UserProfile'
