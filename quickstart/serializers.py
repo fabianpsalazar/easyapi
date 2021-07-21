@@ -6,3 +6,7 @@ types, after first validating the incoming data.'''
 
 from django.contrib.auth.models import User,Group
 from rest_framework import serializers
+
+class HelloSerializers(serializers.Serializer):
+    '''Serialize a field to prove our API view '''
+    name = serializers.CharField(max_length=10)
